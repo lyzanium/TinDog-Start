@@ -161,7 +161,11 @@ p {
 
 .social-icons {
   margin: 20px 10px;
-  color: black;
+  color: #4b4949;
+}
+
+.social-icons:hover {
+  color: #8f8f8f;
 }
 
 .copyright {
