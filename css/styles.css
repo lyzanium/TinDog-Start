@@ -2,20 +2,10 @@ body {
   font-family: "Montserrat";
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #ffffff;
-}
-
-.container-fluid {
-  padding: 3% 16% 7%;
-  overflow: hidden;
-}
-
-h1 {
+.big-heading {
   font-family: "Montserrat";
-  font-size: 4rem;
   font-weight: 900;
+  font-size: 4rem;
   line-height: 1.5;
 }
 
@@ -36,6 +26,15 @@ p {
   font-size: 1.2rem;
 }
 
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 3% 16% 7%;
+  overflow: hidden;
+}
 /* Navigation Bar */
 
 .navbar {
@@ -104,6 +103,11 @@ p {
   color: #ffffff;
 }
 
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
@@ -130,6 +134,11 @@ p {
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .pricingColumn {
