@@ -1,40 +1,38 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-.big-heading {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   font-weight: 900;
-  font-size: 4rem;
+} 
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: "Montserrat";
-  font-weight: 900;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-weight: 900;
+.section-heading {
   font-size: 2rem;
   line-height: 1.5;
 }
 
 p {
   color: #8f8f8f;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #ffffff;
-}
+
+/* Containers */
 
 .container-fluid {
-  padding: 3% 16% 7%;
+  padding: 7% 15%;
   overflow: hidden;
 }
+
+
 /* Navigation Bar */
 
 .navbar {
@@ -57,6 +55,20 @@ p {
   font-weight: 400;
 }
 
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
 /* Download Buttons */
 
 .download-button {
@@ -75,14 +87,16 @@ p {
 /* Features Section */
 
 #features {
-  padding: 7% 15%;
   background-color: #ffffff;
   position: relative;
   /* z-index: 1; */
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
   padding: 4.5%;
 }
 
@@ -98,7 +112,6 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #ffffff;
 }
@@ -114,13 +127,8 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -133,7 +141,6 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .price-text {
@@ -150,23 +157,9 @@ p {
 #cta {
   background-color: #ff4c68;
   color: #ffffff;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-.cta-heading {
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 3.8rem;
-  line-height: 1.5;
 }
 
 /* Footer Section */
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
 
 .social-icons {
   margin: 20px 10px;
